@@ -6,3 +6,5 @@ def test_apply_discount():
  assert apply_discount(200, 10) == 180
 def test_zero_discount():
  assert apply_discount(100, 0) == 100
+def test_ci_failure():
+    assert False
